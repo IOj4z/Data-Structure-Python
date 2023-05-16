@@ -2,6 +2,7 @@ def bubblesort(list):
     for iter_num in range(len(list) - 1, 0, -1):
         print(iter_num)
         for idx in range(iter_num):
+            print(idx)
             print(list[idx])
             if list[idx] > list[idx + 1]:
                 temp = list[idx]
